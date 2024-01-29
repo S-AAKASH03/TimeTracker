@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task.css">
+</head>
+
+<body>
+    <input type="text" placeholder="Task" id="task"><br><br>
+    <input type="text" placeholder="Description" id="description"><br><br>
+    <div class="timer">
+        <div class="timer-control" id="timer-control">Start</div>
+        &nbsp;
+
+        <p class="time" id="hour">00</p>
+        <p class="time">:</p>
+        <p class="time" id="minutes">00</p>
+        <p class="time">:</p>
+        <p class="time" id="seconds">00</p>
+    </div>
+    <div class="entries" id="entries">
+        <div class="entries-heading entry">
+            <div>Task</div>
+            <div>Description</div>
+            <div>Duration</div>
+        </div>
+    </div>
+</body>
+
+<script type="module" src="./task.js"></script>
+
+</html>

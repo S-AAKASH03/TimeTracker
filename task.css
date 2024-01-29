@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    height: 2rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+.timer-control {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.timer-control:active {
+    transform: scale(1.02);
+}
+
+.timer {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.time {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+.entries {
+    width: 100%;
+    font-size: 1.2rem;
+    color: #333;
+}
+.entry {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #eb8787;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.entries-heading {
+    background-color: #193654;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#task{
+    background-color: #4caf50;
+    text-decoration-color: #000000;
+    color: hsl(0, 79%, 4%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  #task:hover {
+    background-color: white;
+  }
+
+
+  #description{
+    background-color: #4caf50;
+    text-decoration-color: black;
+    color: hsl(0, 79%, 4%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  #description:hover {
+    background-color: white;
+  }
+  body {
+    background-image: url('photo1.avif');
+    background-size: cover; /* Adjust this property as needed */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
